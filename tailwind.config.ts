@@ -38,6 +38,8 @@ module.exports = {
         karla: ['Karla', 'sans-serif'],
         'league-spartan': ['League Spartan', 'sans-serif'],
         fraunces: ['Fraunces', 'sans-serif'],
+        overpass: ['Overpass', 'sans-serif'],
+        ubuntu: ['Ubuntu', 'sans-serif'],
       },
       keyframes: {
         comeIn: {
@@ -126,16 +128,12 @@ module.exports = {
         bounceCombo: 'bounceCombo 3.5s forwards',
       },
       colors: {
-        yellow: 'var(--yellow)',
-        blue: 'var(--blue)',
-        'soft-red': 'var(--soft-red)',
-        'dark-desaturated-cyan': 'var(--dark-desaturated-cyan)',
-        'dark-blue': 'var(--dark-blue)',
-        'dark-moderate-cyan': 'var(--dark-moderate-cyan)',
-        'very-dark-desaturated-blue': 'var(--very-dark-desaturated-blue)',
+        'very-dark-black-blue': 'var(--very-dark-black-blue)',
         'very-dark-grayish-blue': 'var(--very-dark-grayish-blue)',
-        'dark-grayish-blue': 'var(--dark-grayish-blue)',
         'grayish-blue': 'var(--grayish-blue)',
+        'very-dark-blue': 'var(--very-dark-blue)',
+        'very-light-red': 'var(--very-light-red)',
+        'light-red': 'var(--light-red)',
         border: {
           yellow: 'var(--yellow)',
           cyan: 'var(--cyan)',
@@ -152,8 +150,10 @@ module.exports = {
       },
       maxWidth: {
         'container-100': '6.25rem',
+        'container-176': '11rem',
         'container-200': '12.5rem',
         'container-300': '18.75rem',
+        'container-375': '23.4375rem',
         'container-400': '25rem',
         'container-500': '31.25rem',
         'container-600': '37.5rem',
@@ -201,8 +201,11 @@ module.exports = {
         '128W': '8rem',
         '144W': '9rem',
         '160W': '10rem',
+        '176W': '11rem',
         '200W': '12.5rem',
         '208W': '13rem',
+        '240W': '15rem',
+        '252.8W': '15.8rem',
         '256W': '16rem',
         '272W': '17rem',
         '288W': '18rem',
@@ -395,9 +398,13 @@ module.exports = {
         '800I': '50rem',
       },
       backgroundImage: {
-        'custom-gradient':
-          'linear-gradient(90deg,hsl(236, 72%, 79%), hsl(237, 63%, 64%))',
         'ticket-border-gradient': 'var(--ticket-gradient)',
+        // 'custom-gradient':
+        //   'linear-gradient(90deg,hsl(236, 72%, 79%), hsl(237, 63%, 64%))',
+        'custom-gradient1':
+          'linear-gradient(90deg,var(--very-light-red), var(--light-red)',
+        'custom-gradient2':
+          'linear-gradient(90deg,var(--very-dark-gray-blue), var(--very-dark-desaturated-blue)',
       },
       padding: {
         '1.2P': '1.2rem',
@@ -423,6 +430,8 @@ module.exports = {
         '96P': '6rem',
         '112P': '7rem',
         '128P': '8rem',
+        '144P': '9rem',
+        '160P': '10rem',
       },
       borderRadius: {
         '5BR': '0.3125rem', // 5px to rem

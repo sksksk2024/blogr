@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Google Fonts(Optimised for this project) */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
 @layer base {
   *,
   ::after,
@@ -37,15 +40,20 @@ img {
   --font-size-4-5xl: 4.5rem;
 
   /* Colors */
-  --soft-red: hsl(7, 99%, 70%);
-  --yellow: hsl(51, 100%, 49%);
-  --dark-desaturated-cyan: hsl(167, 40%, 24%); /*(graphic design text)*/
-  --dark-blue: hsl(198, 62%, 26%); /*(photography text)*/
-  --dark-moderate-cyan: hsl(168, 34%, 41%); /*(footer)*/
-  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
-  --very-dark-grayish-blue: hsl(213, 9%, 39%);
-  --dark-grayish-blue: hsl(232, 10%, 55%);
-  --grayish-blue: hsl(210, 4%, 67%);
+  --light-red: hsl(356, 100%, 66%); /*(CTA text)*/
+  --very-light-red: hsl(355, 100%, 74%); /*(CTA hover background)*/
+  --very-dark-blue: hsl(208, 49%, 24%); /*(headings)*/
+  --grayish-blue: hsl(240, 2%, 79%); /*(footer text)*/
+  --very-dark-grayish-blue: hsl(207, 13%, 34%); /*(body copy)*/
+  --very-dark-black-blue: hsl(240, 10%, 16%); /*(footer background)*/
+
+  /* Gradients */
+  /* Background gradient - Intro/CTA mobile nav: */
+  --very-light-red: hsl(13, 100%, 72%);
+  --light-red: hsl(353, 100%, 62%);
+  /* Background gradient - body: */
+  --very-dark-gray-blue: hsl(237, 17%, 21%);
+  --very-dark-desaturated-blue: hsl(237, 23%, 32%);
 }
 
 /* Styles */
@@ -60,6 +68,13 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(90deg, var(--very-light-red), var(--light-red)),
+    url('./../images/bg-pattern-intro-desktop.svg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Loader */
