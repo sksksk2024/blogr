@@ -6,7 +6,7 @@ import arrowLight from './../images/icon-arrow-light.svg';
 
 export default function Header() {
   return (
-    <header className="rounded-bl-100BR mx-auto max-w-container-1400 p-32P pb-160P font-ubuntu tracking-wide">
+    <header className="rounded-bl-100BR mx-auto p-32P pb-160P font-ubuntu tracking-wide">
       <div className="flex justify-between items-center">
         <div className="flex justify-start items-center gap-20">
           <Image src={logo} alt="blogr" />

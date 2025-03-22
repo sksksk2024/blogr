@@ -294,6 +294,7 @@ module.exports = {
         '550-4H': '34.4rem',
         '564H': '35.25rem',
         '600H': '37.5rem',
+        '624H': '39rem',
         '800H': '50rem',
       },
       screens: {
@@ -345,6 +346,11 @@ module.exports = {
         '144M': '9rem',
         '160M': '10rem',
         '176M': '11rem',
+        '192M': '12rem',
+        // '208M': '13rem',
+        '224M': '14rem',
+        '240M': '15rem',
+        '288M': '18rem',
       },
       inset: {
         '16negI': '-1rem',
@@ -432,6 +438,10 @@ module.exports = {
         '128P': '8rem',
         '144P': '9rem',
         '160P': '10rem',
+        '176P': '11rem',
+        '192P': '12rem',
+        '208P': '13rem',
+        '272P': '17rem',
       },
       borderRadius: {
         '5BR': '0.3125rem', // 5px to rem
