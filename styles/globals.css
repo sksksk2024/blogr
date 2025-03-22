@@ -78,6 +78,10 @@ header {
   background-position: center;
 }
 
+#signUpMobile {
+  background: linear-gradient(90deg, var(--very-light-red), var(--light-red));
+}
+
 #bg-circle {
   /* background: url('../images/bg-pattern-circles.svg'); */
   /* background-position: center;

@@ -10,7 +10,7 @@ const Footer = () => {
 
       <div className="space-y-4">
         <h3 className="font-bold">Product</h3>
-        <ul className="text-grayish-blue">
+        <ul className="text-grayish-blue space-y-2">
           <li className="cursor-pointer hover:underline">Overview</li>
           <li className="cursor-pointer hover:underline">Pricing</li>
           <li className="cursor-pointer hover:underline">Marketplace</li>
@@ -21,7 +21,7 @@ const Footer = () => {
 
       <div className="space-y-4">
         <h3 className="font-bold">Company</h3>
-        <ul className="text-grayish-blue">
+        <ul className="text-grayish-blue space-y-2">
           <li className="cursor-pointer hover:underline">About</li>
           <li className="cursor-pointer hover:underline">Team</li>
           <li className="cursor-pointer hover:underline">Blog</li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
       <div className="space-y-4">
         <h3 className="font-bold">Connect</h3>
-        <ul className="text-grayish-blue">
+        <ul className="text-grayish-blue space-y-2">
           <li className="cursor-pointer hover:underline">Contact</li>
           <li className="cursor-pointer hover:underline">Newsletter</li>
           <li className="cursor-pointer hover:underline">LinkedIn</li>
