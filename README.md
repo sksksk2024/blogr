@@ -33,7 +33,7 @@ My first Next.js project, built entirely on my own. What I'm most proud of is ho
 
 ### Continued development
 
-I attempted to integrate parallax effects and smooth scrolling using Framer Motion but faced significant challenges. Moving forward, I plan to deepen my understanding of animation techniques to refine my skills before applying for jobs. Additionally, I aim to strengthen my grasp of Next.js alongside my MERN stack, as it significantly enhances SEO, performance, and developer experience.
+I will continue to focus on strengthening my skills in the MERN stack, Next.js, Framer Motion, and TypeScript. Additionally, I aim to improve my programming logic and problem-solving abilities overall.
 
 ### Useful resources
 
